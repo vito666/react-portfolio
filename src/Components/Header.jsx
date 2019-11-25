@@ -34,10 +34,13 @@ const PageHeader = styled.div`
     li {
       display: flex;
       justify-content: center;
-      width: 15vw;
+      width: 20vw;
       list-style-type: none;
       @media (max-width: 1150px) {
         width: 23vw;
+      }
+      @media (max-width: 900px) {
+        width: 100%;
       }
     }
   }

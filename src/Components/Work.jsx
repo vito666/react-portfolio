@@ -35,14 +35,6 @@ function Work() {
               <br />
             </p>
           </div>
-          <div className="container">
-            <h4>University</h4>
-            <hr />
-            <p>
-              Faculty of Information Technologies and Cyber security • September
-              2014 | Odessa, Ukraine
-            </p>
-          </div>
         </section>
       </Wrapper>
 
@@ -67,8 +59,8 @@ function Work() {
             <hr />
             <p>
               Photoshop, Figma, Scetch,
-              <br /> WordPress, Webpack, Bootstrap, <br /> Pixel perfect,
-              MongoDB, React-router,
+              <br /> WordPress, Webpack, Bootstrap, styled-components <br />
+              Pixel perfect, MongoDB, React-router,
               <br /> Axios, yarn, MacOS.
             </p>
           </div>

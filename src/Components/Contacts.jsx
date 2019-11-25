@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Resume from "../Resume/artem_konstantinov_resume_front_end.pdf";
 
 function Contacts() {
   return (
@@ -8,16 +9,31 @@ function Contacts() {
       <section>
         <div className="container">
           <p>
-            <a href="mailto:artem.konst6@gmail.com">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="mailto:artem.konst6@gmail.com"
+            >
               Email: artem.konst6@gmail.com
             </a>
             <br /> <br />
-            <a href="https://www.linkedin.com/in/artem-konstantinov-57437a172/">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://www.linkedin.com/in/artem-konstantinov-57437a172/"
+            >
               LinkedIn
             </a>
             <br /> <br />
-            <a href="https://github.com/vito666">Github</a> <br /> <br />
-            <a download href="img/Resume_Artem_Konstantinov(Frontend).pdf">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://github.com/vito666"
+            >
+              Github
+            </a>{" "}
+            <br /> <br />
+            <a download href={Resume}>
               Download my resume
             </a>
           </p>

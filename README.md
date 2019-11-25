@@ -1,3 +1,6 @@
+In this project I used:
+React, react-router, styled-components ,react-transition-group, HTML
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

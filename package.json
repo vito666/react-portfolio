@@ -1,4 +1,5 @@
 {
+  "homepage": "http://vito666.github.io/react-portfolio",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,8 @@
     "styled-components": "^4.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -32,5 +35,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://vito666.github.io/react-portfolio"
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
 }

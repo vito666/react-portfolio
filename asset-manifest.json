@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/react-portfolio/static/js/main.f831a4e5.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.f831a4e5.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.d74d1d91.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.d74d1d91.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.b460b43a.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.b460b43a.js.map",
     "static/js/2.129dfd61.chunk.js": "/react-portfolio/static/js/2.129dfd61.chunk.js",
     "static/js/2.129dfd61.chunk.js.map": "/react-portfolio/static/js/2.129dfd61.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.a5ae5329bce1c45ff3260d4efcbf267a.js": "/react-portfolio/precache-manifest.a5ae5329bce1c45ff3260d4efcbf267a.js",
+    "precache-manifest.182a67e463347251e9c26cf520091d07.js": "/react-portfolio/precache-manifest.182a67e463347251e9c26cf520091d07.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/media/artem_konstantinov_resume_front_end.pdf": "/react-portfolio/static/media/artem_konstantinov_resume_front_end.dcb4cd64.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.b460b43a.js",
     "static/js/2.129dfd61.chunk.js",
-    "static/js/main.f831a4e5.chunk.js"
+    "static/js/main.d74d1d91.chunk.js"
   ]
 }

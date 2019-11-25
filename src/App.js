@@ -1,18 +1,17 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
 
 import Header from "./Components/Header";
 import Container from "./Components/Container";
 
 export const GlobalStyle = createGlobalStyle`
+@import url('https://fonts.googleapis.com/css?family=Alata|Quicksand:700&display=swap');
 
 html {
     height: 100%;
 
   body {
-    @import url('https://fonts.googleapis.com/css?family=Alata|Quicksand:700&display=swap');
-  
     font-family: 'Alata', sans-serif;
     display: flex;
     flex-direction: column;
@@ -32,7 +31,7 @@ html {
 const App = () => (
   <React.Fragment>
     <GlobalStyle />
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Container />
     </Router>

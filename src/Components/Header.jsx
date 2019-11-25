@@ -16,6 +16,20 @@ const Header = () => {
           );
         })}
       </ul>
+      {/* <ul>
+        <li>
+          <LinkItem to={"/"}>"Home"</LinkItem>
+        </li>
+        <li>
+          <LinkItem to={"/Education"}>"Education"</LinkItem>
+        </li>
+        <li>
+          <LinkItem to={"/Contacts"}>"Contacts"</LinkItem>
+        </li>
+        <li>
+          <LinkItem to={"/Work"}>"Work"</LinkItem>
+        </li>
+      </ul> */}
     </PageHeader>
   );
 };

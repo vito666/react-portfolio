@@ -32,13 +32,13 @@ function Home() {
             freelance order for online store on Wordpress. <br />
             <hr />
             Next in December 2017 I found my first job in
-            <span> IT company - Evo-Studio</span>.I were creating there websites
+            <span> IT company - Evo-Studio</span>.I was creating there websites
             on <span> HTML, CSS, JS</span> and themes for Themeforest. After
             about a year of work there I decided to check DevOps course in
             Hillel. <br />
             <hr />
             In April 2019 I found my next job in company -
-            <span> Cloudit LLC</span> . My responsobilities were, creating pages
+            <span> Cloudit LLC</span> . My responsibilities were, creating pages
             with React, creating forms with React and React-Formik, also a
             little tasks with <span>Redux</span>.
           </p>

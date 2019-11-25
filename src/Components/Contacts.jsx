@@ -72,7 +72,7 @@ const Wrapper = styled.div`
   section {
     color: #fff;
     div.container {
-      border: 1px solid #fff;
+      border: 1px solid yellow;
       border-radius: 20px;
       padding: 0 15px;
       margin: 15px 0;

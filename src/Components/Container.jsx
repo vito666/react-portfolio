@@ -20,9 +20,9 @@ function Container({ location }) {
           <section className="route-section">
             <Switch location={location}>
               <Route exact path={["/Home", "/"]} component={Home} />
-              <Route path="/Education" component={Education} />
+              <Route path="/Education-Cert" component={Education} />
               <Route path="/Contacts" component={Contacts} />
-              <Route path="/Work" component={Work} />
+              <Route path="/Work-Tech" component={Work} />
             </Switch>
           </section>
         </CSSTransition>

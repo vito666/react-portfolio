@@ -12,6 +12,7 @@
     "react-transition-group": "^4.3.0",
     "styled-components": "^4.4.1"
   },
+  "build": "react-scripts build && cp build/index.html build/404.html",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

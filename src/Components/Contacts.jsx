@@ -6,32 +6,47 @@ function Contacts() {
     <Wrapper>
       <span>Contacts</span>
       <section>
-        <p>
-          Curabitur eu feugiat magna, ut malesuada est. In sit amet placerat
-          erat, quis ornare augue. Proin mi nulla, pretium vel dictum vel,
-          ornare sed tellus. Phasellus congue placerat metus. Cras eleifend
-          justo quis hendrerit bibendum. Aliquam erat volutpat. Nulla sed neque
-          at ante iaculis mollis a id sem. Suspendisse potenti.
-        </p>
-        <p>
-          Praesent eu lorem euismod, convallis nisl in, cursus metus. Cras dolor
-          eros, fringilla id erat et, sollicitudin rhoncus lectus. Phasellus non
-          vestibulum massa, vel ornare ligula. Quisque accumsan leo eget nibh
-          mattis tempor. Nunc imperdiet diam ut enim viverra, non porta lorem
-          bibendum. Phasellus et pulvinar enim. Nunc elementum quam metus, et
-          venenatis nunc viverra eget. Sed quis lacinia enim. Ut sit amet
-          elementum lacus, nec porta elit. Sed dignissim feugiat vehicula. Nunc
-          et commodo orci.
-        </p>
+        <div className="container">
+          <p>
+            <a href="mailto:artem.konst6@gmail.com">
+              Email: artem.konst6@gmail.com
+            </a>
+            <br /> <br />
+            <a href="https://www.linkedin.com/in/artem-konstantinov-57437a172/">
+              LinkedIn
+            </a>
+            <br /> <br />
+            <a href="https://github.com/vito666">Github</a> <br /> <br />
+            <a download href="img/Resume_Artem_Konstantinov(Frontend).pdf">
+              Download my resume
+            </a>
+          </p>
+        </div>
       </section>
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
-  min-height: calc(100vh - 50px);
-  background-color: #f76565;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80vw;
+  margin-top: 20px;
+  border: 5px solid transparent;
+  border-image: linear-gradient(
+    to bottom right,
+    #b8fd33 0%,
+    #b827fc 25%,
+    #fec837 50%,
+    #2c90fc 75%,
+    #fd1892 100%
+  );
+  border-image-slice: 1;
   padding: 20px;
+  @media (max-width: 1500px) {
+    flex-direction: column;
+  }
 
   span {
     color: #fff;
@@ -40,7 +55,29 @@ const Wrapper = styled.div`
 
   section {
     color: #fff;
+    div.container {
+      border: 1px solid #fff;
+      border-radius: 20px;
+      padding: 0 15px;
+      margin: 15px 0;
+      p {
+        font-size: 25px;
+        text-align: center;
+        a {
+          color: #fff;
+          :visited {
+            color: #fff;
+          }
+          :hover {
+            transition: all 0.5s linear;
+            color: #a358cc;
+          }
+        }
+        @media (max-width: 376px) {
+          font-size: 18px;
+        }
+      }
+    }
   }
 `;
-
 export default Contacts;
